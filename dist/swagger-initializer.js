@@ -1,16 +1,20 @@
 window.onload = function () {
-  //<editor-fold desc="Changeable Configuration Block">
-
-  // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
-    url: 'cmd/network-observer/spec/openapi.yaml',
+    url: '/cmd/network-observer/spec/openapi.yaml',
     dom_id: '#swagger-ui',
-    enableCORS: false,
     deepLinking: true,
     presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
     plugins: [SwaggerUIBundle.plugins.DownloadUrl],
     layout: 'StandaloneLayout',
+    customCss: `
+    .swagger-ui .topbar { 
+      background-color: #82caff; 
+    }
+    .swagger-ui .topbar .topbar-wrapper img {
+      content: url('https://skupper.io/images/skupper-logo-horizontal.svg');
+      width: 150px; 
+      height: auto;
+    }
+      `,
   });
-
-  //</editor-fold>
 };

@@ -6,7 +6,7 @@ info:
     The Skupper network observer exposes a read only HTTP API. This API is used
     by the network console frontend to display information about a skupper
     netwrok.
-  title: Skupper Network Observer HTTP API.
+  title: Skupper Network Observer HTTP API (Valerio edition).
   license:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
