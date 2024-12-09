@@ -12,11 +12,11 @@ html {
 
 body {
     margin: 0;
-    background: #fafafa;
+    background: aliceblue;
 }
 
 .swagger-ui .topbar { 
-    background-color: #bcc1c4!important; 
+    background-color: #acdaf6!important; 
 }
 
 .swagger-ui .topbar-wrapper img[alt="Swagger UI"], .topbar-wrapper span {
