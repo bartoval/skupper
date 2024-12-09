@@ -16,11 +16,15 @@ body {
 }
 
 .swagger-ui .topbar { 
-    background-color: #82caff!important; 
+    background-color: #bcc1c4!important; 
 }
 
-.swagger-ui .topbar .topbar-wrapper img {
-    content: url('https://skupper.io/images/skupper-logo-horizontal.svg');
-    width: 150px; 
-    height: auto;
+.swagger-ui .topbar-wrapper img[alt="Swagger UI"], .topbar-wrapper span {
+    visibility: collapse;
+}
+
+.swagger-ui  .topbar-wrapper .link:after {
+  content: url('https://skupper.io/images/skupper-logo-horizontal.svg');
+  width: 240px !important;
+  display: flex;
 }
