@@ -19,12 +19,15 @@ body {
     background-color: #acdaf6!important; 
 }
 
-.swagger-ui .topbar-wrapper img[alt="Swagger UI"], .topbar-wrapper span {
+.swagger-ui svg:not(:root) {
     visibility: collapse;
 }
 
-.swagger-ui  .topbar-wrapper .link:after {
+.swagger-ui  .topbar a {
   content: url('https://skupper.io/images/skupper-logo-horizontal.svg');
-  width: 240px !important;
-  display: flex;
+  height: 60px;
+}
+
+.swagger-ui .topbar .download-url-wrapper .download-url-button {
+    background-color: cornflowerblue;
 }
