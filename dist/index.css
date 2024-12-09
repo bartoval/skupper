@@ -14,3 +14,13 @@ body {
     margin: 0;
     background: #fafafa;
 }
+
+.swagger-ui .topbar { 
+    background-color: #82caff!important; 
+}
+
+.swagger-ui .topbar .topbar-wrapper img {
+    content: url('https://skupper.io/images/skupper-logo-horizontal.svg');
+    width: 150px; 
+    height: auto;
+}
